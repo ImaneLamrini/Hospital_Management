@@ -1,0 +1,65 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.first {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+#logo{
+    width: 250px;
+    height: auto;
+}
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 28px;
+    color: #333;
+    margin: 15px ;
+}
+
+.main {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+.ipp, .name, .acte, .price, .ttc {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.price, .ttc {
+    font-weight: bold;
+}
+#printButton {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.back{
+    transform: translate(30px,15px);
+    position: absolute;
+    animation-name: X;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+  }
+  @keyframes X {
+    0% {margin-left:0px;}
+    25% {margin-left:20px;}
+    50% {margin-left:0px;}
+    75% {margin-left:20px;}
+    100% {margin-left:0px;}
+ }

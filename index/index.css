@@ -1,0 +1,97 @@
+body{
+    background-image: url("abstract-blur-hospital.jpg");
+}
+.pic{
+    width: 90px;
+    margin-left: 60px;
+    padding-top: 15px;
+    padding-left: 130px;
+}
+h1{
+    text-align: center;
+    margin-top:50px;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 40px;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-top: -20px;
+    font-style: italic;
+}
+.left-section{
+    margin-left: 150px;
+    margin-top:100px;
+}
+#image1{
+    width:35px;
+    transform:translateY(12px);
+    transform: translate(80px,9px);
+}
+.inpu{
+    height: 30px;
+    border-radius: 10px;
+    border-color: #0099ff;
+    padding-left: 60px;
+    margin-left: 80px;
+}
+input:hover,input:active{
+    border-color:rosybrown;
+}
+#submit{
+    width:230px;
+    height: 40px;
+    font-weight: bold;
+    background-color: #0099ff;
+    margin-left: 120px;
+    margin-top: 30px;
+    border-color: #0099ff;
+    color: white;
+    cursor:pointer;
+}
+form {
+    border: 2px solid #0099ff;
+    border-radius: 30px;
+    width: 500px;
+    height: 400px;
+}
+.right-section{
+    float: right;
+    margin-top: -340px;
+    margin-right: 95px;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+
+}
+.vertical-line {
+    position: relative;
+    width: 1px;
+    height: 400px; /* Adjust height as needed */
+    background-color: black; /* You can change the color */
+    margin-left:680px;
+    margin-top:-400px;
+    color: bisque;
+  }
+footer{
+    height: 10px;
+  }
+  .left{
+    font-family:'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+nav{
+    float: right;
+    font-family:'Nunito Sans', sans-serif;
+    font-weight: bold;
+    transform: translateY(-29px);
+}
+a{
+    text-decoration:none;
+    color: black;
+    margin: 15px;
+}

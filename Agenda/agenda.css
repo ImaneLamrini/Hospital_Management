@@ -1,0 +1,93 @@
+body{
+    background-image: url("abstract-blur-hospital copy.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+  }
+  .leftside img {
+    width: 50px;
+    height: auto;
+  }
+  .rightside nav a {
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 5px;
+  }
+  .rightside button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .rightside button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.2);
+  }
+  h2{
+    transform:translate(480px);
+  }
+form{
+    transform: translate(840px,-300px);
+    font-weight: bold;
+    color: rgb(34, 78, 99);
+}
+#ipp,#acte,#date,#time{
+    width: 150px;
+    border-color:blue ;
+}
+#date,#time{
+    border-width: 1px;
+    margin-left: 5px;
+}
+#acte{
+    margin-left: 60px;
+}
+.save{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border:none;
+    width: 100px;
+    border-radius:10px;
+    background: rgb(223,135,27);
+    background: radial-gradient(circle, rgba(223,135,27,1) 0%, rgba(29,83,230,1) 100%);
+    cursor: pointer;
+    margin-left:30px;
+
+}
+.save:hover{
+    transform: scale(1.2);
+  }
+  .appoint{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border:none;
+    width: 200px;
+    border-radius:10px;
+    background: rgb(223,135,27);
+    background: radial-gradient(circle, rgba(223,135,27,1) 0%, rgba(29,83,230,1) 100%);
+    cursor: pointer;
+    margin-left:1100px;
+    transform: translateY(-340px);
+  }
+  .appoint:hover{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(14,172,170,0.7987570028011204) 45%, rgba(0,212,255,1) 100%);
+  }
+  

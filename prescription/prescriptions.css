@@ -1,0 +1,85 @@
+body{
+    background-image: url("abstract-blur-hospital copy.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+  }
+  .leftside img {
+    width: 50px;
+    height: auto;
+  }
+  .rightside nav a {
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 5px;
+  }
+  .rightside button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .rightside button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.2);
+  }
+  form {
+    border: 2px solid #0099ff;
+    border-radius: 30px;
+    width: 450px;
+    height: 350px;
+    transform: translate(830px,-450px);
+    font-weight: bold;
+    color: black;
+    background: rgb(237,53,12);
+    background: linear-gradient(0deg, rgba(237,53,12,1) 0%, rgba(206,196,194,1) 95%, rgba(204,204,204,1) 100%);
+}
+.recepee{
+  width: 200px;
+  height: auto;
+  transform: translate(140px,-15px);
+}
+.ippp{
+  margin-left: -145px;
+}
+.ord{
+  margin-left: 60px;
+}
+#ipp{
+  width: 190px;
+  padding: 5px;
+  border-color: rgba(34,193,195,1);
+  font-size: 16px;
+}
+#ord{
+    color: BLACK;
+    font-size: 16px;
+    padding: 10px;
+    border-width: 1px;
+    width: 187px;
+    border-radius:10px;
+    cursor: pointer;
+    border-color:rgba(34,193,195,1) ;  
+    transition:transform 1s ;
+}
+#ord:hover{
+  transform: scale(1.2);
+  background: rgb(128,128,128);
+  background: linear-gradient(90deg, rgba(128,128,128,1) 15%, rgba(253,29,29,1) 33%, rgba(138,120,120,1) 47%, rgba(253,29,29,1) 82%);
+  margin-left: 15px;
+}

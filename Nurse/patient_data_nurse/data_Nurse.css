@@ -1,0 +1,112 @@
+body{
+    background-image: url("abstract-blur-hospital.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+  }
+  .leftside img {
+    width: 50px;
+    height: auto;
+  }
+  .rightside nav a {
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 5px;
+  }
+  .rightside button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .rightside button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.2);
+  }
+  .tab {
+    margin: 10px;
+    margin-left: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(50px);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)
+  }
+  .tab:hover{
+    background-color: white;
+  }
+  .title {
+    font-size: 24px;
+    margin-bottom: -5px;
+    margin-left: 610px;
+    margin-top: -20px;
+    
+  }
+  
+  .headrow th {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+  }
+  .bodyrow td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+  }
+.up{
+  background-color:hsla(194, 90%, 38%, 1);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: transform 20ms;
+  font-weight: bold;
+  border-radius:10px ;
+  height: 25px;
+}
+.up:hover {
+    transform: scale(1.1);
+  }
+.add{
+  transform: translate(1150px,20px);
+  height: 55px;
+  width: 150px;
+   font-weight: bold;
+   font-size:15px;
+   color: gray;
+   background-color: rgba(0, 0, 0, 0.103);
+   border: none;
+   border-radius: 15px;
+   cursor: pointer;
+}
+.add:hover{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  color: black;
+}
+.patient{
+  transform: translate(470px,30px);
+}
+.previous{
+  width:50px;
+  margin-left: 20px;
+  transform: translateY(15px);
+  cursor: pointer;
+}
+  

@@ -1,0 +1,108 @@
+body{
+    background-image: url("abstract-blur-hospital copy.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+  }
+  .leftside img {
+    width: 50px;
+    height: auto;
+  }
+  .rightside nav a {
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 5px;
+  }
+  .rightside button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .rightside button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.2);
+  }
+  .tab {
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(50px);
+    background-image: url("");
+    transform: scale(1.2);
+    transform: translateY(-310px);
+    margin-left: 600px;
+    
+  }
+  .tab:hover{
+    background-color: white;
+  }
+  .headrow th {
+    background-color: transparent;
+    color: rgb(247, 131, 23);
+    padding: 10px 15px;
+  }
+  .bodyrow td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+  }
+.image{
+    transform: translate(-10px,80px);
+    width: 900px;
+}
+.add{
+    transform: translate(1150px,-270px);
+    height: 55px;
+    width: 150px;
+    font-weight: bold;
+    font-size:15px;
+    color: rgb(247, 131, 23);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.add:hover{
+color: grey;
+}
+.del{
+  background-color:red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: transform 20ms;
+  font-family: 'Dosis', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Righteous', cursive;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  border-radius:10px ;
+  height: 25px;
+  margin-top: 8px;
+  width: 68px;
+}
+.del:hover {
+  transform: scale(1.1);
+}
